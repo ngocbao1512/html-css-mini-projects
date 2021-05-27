@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-wrap: nowrap; /* neeus co nhieuf flex item thif nos ko xuong hangf hay sang cootj khacs */
+    flex-wrap: wrap;
+    flex-flow: row wrap; /* ghi tawts */
+    justify-content: flex-start;/* set vi tri flex item theo truc ngang*/
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: center;/*set vij tri theo truc main(truc docj) */
+    align-items: start;
+    width: 100vw;
+    height: 800px;
+    border: 5px solid gray;
+}
+.box{
+    height: 200px;
+    padding: 10px;
+    flex-basis: 200px;/* set chieeuf daif theo truc ngang */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1 1 auto;
+
+}
+.box p{
+    font-size: 20px;
+    color: while;
+}
+.box-1{
+    background-color: rgb(248,99,31);
+    order: 2;
+}
+.box-2{
+    background-color: rgb(48,197,28);
+    flex-grow: 2;
+    order: 3;
+}
+.box-3{
+    background-color: rgb(33,36,233);
+    order:1;
+}
