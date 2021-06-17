@@ -1,2 +1,2 @@
-# css_fun
+# css
 this tutorial 
